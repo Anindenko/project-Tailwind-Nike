@@ -1,0 +1,23 @@
+{
+  "name": "project-tailwind-nike",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^8.0.7",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "terser": "^5.51.2",
+    "vite": "^8.3.0",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-image-minify": "^0.0.9"
+  },
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^8.2.3"
+  }
+}

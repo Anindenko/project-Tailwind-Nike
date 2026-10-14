@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'HelveticaNeue-Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/HelveticaNeue-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/HelveticaNeue-Bold.otf") format("opentype");
+}
+
+@theme {
+    --search-input-color: #F7F7F7;
+    --card-size-color: #C1C1C1;
+    --button-bg-color: #111111;
+    --fon-color: #B3B3B3;
+    --font-medium: 'HelveticaNeue-Medium', sans-serif;
+    --font-bold: 'HelveticaNeue-Bold', sans-serif;
+}
+
